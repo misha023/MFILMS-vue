@@ -2,8 +2,8 @@
 </script>
 
 <template>
-<div class="movie-filters">
-  <h1>Hello</h1>
+<div class="movie-filters text-white p-4">
+  <h1 class="text-nowrap text-5xl">Movie Filters</h1>
 </div>
 </template>
 

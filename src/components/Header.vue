@@ -7,7 +7,7 @@ export default {
 <template>
 <header class="flex justify-between items-center px-6 text-white select-none">
   <h1 class="header-logo text-5xl uppercase font-impact tracking-wide">mfilms</h1>
-  <div class="menu-block flex text-start">
+  <div class="menu-block hidden xl:flex text-start">
     <div class="menu-item"><h5 class="menu-name">Рекомендации</h5></div>
     <div class="menu-item"><h5 class="menu-name">Фильмы</h5></div>
     <div class="menu-item"><h5 class="menu-name">Мультфильмы</h5></div>

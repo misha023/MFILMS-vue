@@ -4,9 +4,10 @@ import { faAngleRight, faAngleLeft, faSearch } from '@fortawesome/free-solid-svg
 </script>
 
 <template>
-<div class="search-container flex justify-between items-center px-8 text-2xl text-white">
+<div class="search-container flex justify-between items-center
+            px-8 text-2xl text-white sticky top-0 z-10">
   <font-awesome-icon class="search-icon left cursor-pointer" :icon="faAngleLeft" />
-  <div class="search-block cursor-pointer w-1/2 my-2.5 flex gap-2 items-center justify-center rounded-lg">
+  <div class="search-block cursor-pointer w-1/2 my-2.5 flex gap-2 items-center justify-center rounded-md max-w-3xl">
     <font-awesome-icon class="placeholder-icon text-xs" :icon="faSearch" />
     <span class="placeholder font-inter text-sm">Поиск</span>
   </div>
