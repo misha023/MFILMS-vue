@@ -7,7 +7,6 @@ const props = defineProps({
 });
 
 const movieRating = getRatingMovie(props.movie['rating']['kp'])
-console.log(movieRating)
 </script>
 
 <template>

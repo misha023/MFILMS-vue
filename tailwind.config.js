@@ -10,7 +10,8 @@ export default {
       'sans': ['ui-sans-serif', 'system-ui'],
       'serif': ['ui-serif', 'Georgia'],
       'mono': ['ui-monospace', 'SFMono-Regular'],
-      'impact': ['Impact'],
+      'roboto': ['Roboto', 'ui-sans-serif'],
+      'impact': ['Impact', 'ui-sans-serif'],
       'inter': ['Inter', 'ui-sans-serif']
     }
   },

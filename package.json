@@ -19,7 +19,8 @@
     "@fortawesome/vue-fontawesome": "^3.0.6",
     "axios": "^1.6.8",
     "humps": "^2.0.1",
-    "vue": "^3.4.21"
+    "vue": "^3.4.21",
+    "vue-slider-component": "^3.2.24"
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.8.0",

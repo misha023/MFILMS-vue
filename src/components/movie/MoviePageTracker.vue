@@ -1,8 +1,8 @@
 <script setup>
-defineProps({
-  'currentPage': Number,
-  'totalPages': Number
-})
+import { inject } from 'vue'
+
+const currentPage = inject('currentPage')
+const totalPages = inject('totalPages')
 </script>
 
 <template>
@@ -10,7 +10,7 @@ defineProps({
             p-2 text-white fixed bottom-0 w-full">
   <span class="text-xs">
     Страница
-    {{ currentPage }}
+    {{ currentPage.value }}
     /
     {{ totalPages }}
   </span>
