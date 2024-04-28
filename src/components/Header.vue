@@ -1,6 +1,9 @@
 <script>
+import ThemeSwitcher from '@/components/ThemeSwitcher.vue'
+
 export default {
-  name: "MainHeader"
+  name: "MainHeader",
+  components: { ThemeSwitcher }
 }
 </script>
 
@@ -15,7 +18,8 @@ export default {
     <div class="menu-item text-xs py-2 px-8 cursor-pointer"><h5 class="menu-name text-base">Сериалы</h5></div>
     <div class="menu-item text-xs py-2 px-8 cursor-pointer"><h5 class="menu-name text-base">Аниме</h5></div>
   </div>
-  <img src="/icon-theme-change.png" class="open-theme-change cursor-pointer w-6">
+  <ThemeSwitcher />
+
 </header>
 </template>
 

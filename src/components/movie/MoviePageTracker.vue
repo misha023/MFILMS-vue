@@ -7,7 +7,7 @@ const totalPages = inject('totalPages')
 
 <template>
 <div class="page-tracker-container flex items-center justify-center
-            p-2 text-white fixed bottom-0 w-full">
+            p-2 text-white sticky bottom-0 w-full">
   <span class="text-xs">
     Страница
     {{ currentPage.value }}

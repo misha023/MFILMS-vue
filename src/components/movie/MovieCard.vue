@@ -23,7 +23,7 @@ const movieRating = getRatingMovie(props.movie['rating']['kp'])
         <img v-for="n in movieRating.emptyStars" :key="`empty-star-${n}`" src="/src/assets/movieRating/0.png">
       </div>
     </div>
-    <img class="movie-img w-full h-full rounded-md" :src="movie['poster']['previewUrl']">
+    <img class="movie-img w-full h-full" :src="movie['poster']['previewUrl']">
   </div>
 </template>
 
@@ -33,7 +33,6 @@ const movieRating = getRatingMovie(props.movie['rating']['kp'])
 .movie-card {
   width: 200px;
   height: 290px;
-  background: #e2e2e2;
 }
 
 .hidden-movie-info {
