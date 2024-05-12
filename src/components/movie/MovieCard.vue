@@ -22,6 +22,7 @@ const movieRating = getRatingMovie(props.movie['rating']['kp'])
         <img v-for="n in movieRating.halfStars" :key="`half-star-${n}`" src="/src/assets/movieRating/0.5.png">
         <img v-for="n in movieRating.emptyStars" :key="`empty-star-${n}`" src="/src/assets/movieRating/0.png">
       </div>
+      <span class="movie-genre text-xs text-slate-400 whitespace-pre-wrap	">{{ movie['genres'].map(genre => genre.name).join(", ") }}</span>
     </div>
     <img class="movie-img w-full h-full" :src="movie['poster']['previewUrl']">
   </div>

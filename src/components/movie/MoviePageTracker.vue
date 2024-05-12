@@ -1,16 +1,16 @@
 <script setup>
-import { inject } from 'vue'
-
-const currentPage = inject('currentPage')
-const totalPages = inject('totalPages')
+defineProps({
+  'currentPage': Number,
+  'totalPages': Number
+})
 </script>
 
 <template>
 <div class="page-tracker-container flex items-center justify-center
-            p-2 text-white sticky bottom-0 w-full">
+            p-2 text-white fixed bottom-0 w-full">
   <span class="text-xs">
     Страница
-    {{ currentPage.value }}
+    {{ currentPage }}
     /
     {{ totalPages }}
   </span>
